@@ -7,3 +7,33 @@
   --poppins: "Poppins", sans-serif;
   --open-sans: "Open Sans", sans-serif;
 }
+
+/* images */
+
+img {
+  max-width: 100%;
+}
+
+.desktop-background {
+  display: none;
+}
+
+.container {
+  max-width: 375px;
+  margin: 0 auto;
+}
+
+body {
+  background-color: var(--violet);
+  color: white;
+}
+
+/* background-size: cover scaluje obrazek z wielkością strony */
+header {
+  background-image: url(./images/bg-mobile.svg);
+  background-size: cover;
+}
+
+.logo {
+  width: 20%;
+}
