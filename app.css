@@ -8,32 +8,59 @@
   --open-sans: "Open Sans", sans-serif;
 }
 
-/* images */
-
 img {
   max-width: 100%;
 }
 
-.desktop-background {
-  display: none;
-}
-
 .container {
+  padding: 2.3em;
   max-width: 375px;
   margin: 0 auto;
+  text-align: center;
 }
 
 body {
   background-color: var(--violet);
   color: white;
+  font-family: var(--open-sans);
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+h1 {
+  font-family: var(--poppins);
+  font-weight: 600;
+  font-size: 1.5rem;
+  margin-bottom: 0.7em;
+}
+
+p {
+  line-height: 1.5rem;
 }
 
 /* background-size: cover scaluje obrazek z wielkością strony */
 header {
   background-image: url(./images/bg-mobile.svg);
   background-size: cover;
+  back
 }
 
 .logo {
-  width: 20%;
+  max-width: 40%;
+  margin-bottom: 3em;
+  float: left;
 }
+
+.register-button {
+  background-color: white;
+  color: var(--violet);
+  border-radius: 1.3rem;
+  display: inline-block;
+  padding: .8em 6em;
+  margin: 0 auto;
+  margin-top: 1.5em;
+  font-size: .8rem;
+}
+
+
+
